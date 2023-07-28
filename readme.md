@@ -1,4 +1,4 @@
-# @makerx/ts-toolkit
+# @tuanbloom/ts-toolkit
 
 A simple cli utility to assist in standardising several boilerplate files across our typescript repositories.
 
@@ -13,14 +13,14 @@ The files it concerns itself with are:
 - .prettierignore
 - tsconfig.json
 
-The cli will output a starter version of these files which can then be extended to suit an individual project's needs. Where possible these files extend a base configuration file in a separate package (eg `@makerx/eslint-config` or `@makerx/prettier-config`). These packages may evolve over time and the latest can be obtained via npm (eg. `npm i -D @makerx/eslint-config@latest`)
+The cli will output a starter version of these files which can then be extended to suit an individual project's needs. Where possible these files extend a base configuration file in a separate package (eg `@tuanbloom/eslint-config` or `@tuanbloom/prettier-config`). These packages may evolve over time and the latest can be obtained via npm (eg. `npm i -D @tuanbloom/eslint-config@latest`)
 
 It is recommended you commit all pending changes before running the cli so that you can compare and / or reset changes
 
 ## Usage
 
 ```shell
-npx @makerx/ts-toolkit init --existing-file-behaviour <sample|overwrite|skip> --platform <node> --no-scripts
+npx @tuanbloom/ts-toolkit init --existing-file-behaviour <sample|overwrite|skip> --platform <node> --no-scripts
 ```
 
 ## Options
@@ -43,15 +43,15 @@ If provided, cli will skip adding any scripts to your package.json
 
 ## Sub-Packages
 
-### @makerx/eslint-config
+### @tuanbloom/eslint-config
 
 A set of default eslint plugins and rules
 
-### @makerx/prettier-config
+### @tuanbloom/prettier-config
 
 A default prettier configuration
 
-### @makerx/ts-config
+### @tuanbloom/ts-config
 
 A default tsconfig configuration
 

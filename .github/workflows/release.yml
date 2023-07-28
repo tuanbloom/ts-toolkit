@@ -34,7 +34,7 @@ jobs:
       - name: Build package
         run: npm run build
 
-      - name: Publish @makerx/eslint-config (if version has been updated)
+      - name: Publish @tuanbloom/eslint-config (if version has been updated)
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
@@ -42,7 +42,7 @@ jobs:
           access: 'public'
           check-version: true
 
-      - name: Publish @makerx/prettier-config (if version has been updated)
+      - name: Publish @tuanbloom/prettier-config (if version has been updated)
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
@@ -50,7 +50,7 @@ jobs:
           access: 'public'
           check-version: true
 
-      - name: Publish @makerx/ts-config (if version has been updated)
+      - name: Publish @tuanbloom/ts-config (if version has been updated)
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
@@ -58,7 +58,7 @@ jobs:
           access: 'public'
           check-version: true
 
-      - name: Publish @makerx/ts-toolkit (if version has been updated)
+      - name: Publish @tuanbloom/ts-toolkit (if version has been updated)
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}

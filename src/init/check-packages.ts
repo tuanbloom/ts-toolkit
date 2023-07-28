@@ -14,9 +14,9 @@ export async function checkPackages(packageJsonPath: string, { noInstall }: { no
   if (packageJson.devDependencies === undefined) packageJson.devDependencies = {}
 
   const packages: Record<string, string> = {
-    '@makerx/eslint-config': 'latest',
-    '@makerx/prettier-config': 'latest',
-    '@makerx/ts-config': 'latest',
+    '@tuanbloom/eslint-config': 'latest',
+    '@tuanbloom/prettier-config': 'latest',
+    '@tuanbloom/ts-config': 'latest',
     typescript: '^4.7.0',
     eslint: '8.22.0',
     prettier: 'latest',
