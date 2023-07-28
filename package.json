@@ -1,5 +1,5 @@
 {
-  "name": "@makerx/ts-toolkit",
+  "name": "@tuanbloom/ts-toolkit",
   "version": "3.1.0",
   "description": "This cli facilitates the creation of boilerplate files in a new typescript repo",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "build:1-compile": "tsc -p tsconfig.json",
     "lint": "eslint src/** --fix",
     "format": "prettier --write .",
-    "install-local-packages": "npm install @makerx/eslint-config@./packages/eslint -D && npm i -D @makerx/prettier-config@./packages/prettier && npm i -D @makerx/ts-config@./packages/ts"
+    "install-local-packages": "npm install @tuanbloom/eslint-config@./packages/eslint -D && npm i -D @tuanbloom/prettier-config@./packages/prettier && npm i -D @tuanbloom/ts-config@./packages/ts"
   },
   "author": "MakerX",
   "license": "unlicensed",
@@ -25,9 +25,9 @@
     "esm": "^3.2.25"
   },
   "devDependencies": {
-    "@makerx/eslint-config": "file:packages/eslint",
-    "@makerx/prettier-config": "file:packages/prettier",
-    "@makerx/ts-config": "file:packages/ts",
+    "@tuanbloom/eslint-config": "file:packages/eslint",
+    "@tuanbloom/prettier-config": "file:packages/prettier",
+    "@tuanbloom/ts-config": "file:packages/ts",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
     "eslint": "8.45.0",
